@@ -1,1 +1,118 @@
-/* Add your CSS here */
+body{
+    marign-left:auto;
+    margin-rigth:auto;
+    width:1000px;
+}
+#nav li{
+    list-style-type: none;
+    display:inline-block;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#515151;
+    text-transform:uppercase;
+    padding:20px;
+}
+#nav{
+    background-color:#fffabe;
+    width:1000px;
+    height:72px;
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    display:flex;
+    justify-content: space-around;
+}
+#nav li a{
+    text-decoration:none;
+    color:#515151;
+}
+#nav li a:hover{
+    color:#d42551;
+}
+#wrapper{
+    padding:25px 10px;
+}
+#leftdiv{
+    float:left;
+    margin:100px 100px 200px 100px;
+    position:relative;
+}
+h1{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:20px;
+    color:#6a6969;
+    padding:25px;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#6a6969;
+    text-align:left;
+    line-height:150%;
+}
+#content{
+    width:1000px;
+}
+#information{
+    margin:50px 0px 50px 0px;
+    width:1000px;
+}
+#information img{
+    float:right;
+}
+#footer li{
+    list-style-type: none;
+    color:white;
+    margin:2px;
+    display:inline;
+}
+#footer{
+    width:1000px;
+    height:80px;
+    background-color:#df5277;
+    display:flex;
+    justify-content: space-around;
+}
+#footer li{
+    padding:75px;
+}
+.weekdays{
+    background-color:#fffabe;
+    width:126px;
+    height:140px;
+    display:inline-block;
+    margin:5px;
+}
+.weekdays p{
+    background-color:#fffabe;
+}
+.time{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#6a6969;
+}
+#coconut{
+    width:126px;
+    height:33px;
+    background-color:#824603;
+    color:white;
+}
+#vanilla{
+    width:126px;
+    height:33px;
+    background-color:#df5277;
+    color:white;
+}
+#lemon{
+    width:126px;
+    height:33px;
+    background-color:#a2304e;
+    color:white;
+}
+#almond{
+    width:126px;
+    height:33px;
+    background-color:#c39005;
+    color:white;
+}
