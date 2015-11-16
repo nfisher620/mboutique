@@ -1,31 +1,26 @@
 body{
-    marign-left: auto;
-    margin-right: auto;
-    width: 100vw;
-    height: 100vh;
-}
-#header img{
+    marign-left:auto;
+    margin-rigth:auto;
     width:1000px;
-    height:400px;
 }
-#nav li {
+#nav li{
     list-style-type: none;
-    display: inline-block;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #515151;
-    text-transform: uppercase;
-    padding: 2vw;
+    display:inline-block;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#515151;
+    text-transform:uppercase;
+    padding:20px;
 }
 #nav{
-    background-color: #fffabe;
-    width: 1000px;
-    height: 72px;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display: flex;
+    background-color:#fffabe;
+    width:1000px;
+    height:72px;
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    display:flex;
     justify-content: space-around;
 }
 #nav li a{
@@ -38,17 +33,16 @@ body{
 #wrapper{
     padding:25px 10px;
 }
-#leftdiv {
-    float: left;
-    margin: 10vh;
-    position: relative;
-    height: 40vh;
+#leftdiv{
+    float:left;
+    margin:100px 100px 200px 100px;
+    position:relative;
 }
 h1{
     font-family:Arial,Helvetica,sans-serif;
     font-size:20px;
     color:#6a6969;
-    padding:22px;
+    padding:25px;
     font-weight:lighter;
 }
 p{
@@ -59,11 +53,11 @@ p{
     line-height:150%;
 }
 #content{
-    width:70.5vw;
+    width:1000px;
 }
-#information {
-    margin: 50px 0px 50px 0px;
-    width: 1000px;
+#information{
+    margin:50px 0px 50px 0px;
+    width:1000px;
 }
 #information img{
     float:right;
@@ -81,14 +75,13 @@ p{
     background-color:#df5277;
     display:flex;
     justify-content: space-around;
-    margin-left:5px;
 }
-.weekdays {
-    background-color: #fffabe;
-    width: 126px;
-    height: 140px;
-    display: inline-block;
-    margin-left:12px;
+.weekdays{
+    background-color:#fffabe;
+    width:126px;
+    height:140px;
+    display:inline-block;
+    margin:5px;
 }
 .weekdays p{
     background-color:#fffabe;
@@ -98,29 +91,29 @@ p{
     font-size:12px;
     color:#6a6969;
 }
-#coconut {
-    width: 126px;
-    height: 33px;
-    background-color: #824603;
-    color: white;
-}
-#vanilla {
-    width: 126px;
-    height: 33px;
-    background-color: #df5277;
-    color: white;
-}
-#lemon {
-    width: 126px;
-    height: 33px;
-    background-color: #a2304e;
-    color: white;
-}
-#almond {
+#coconut{
     width:126px;
     height:33px;
-    background-color: #c39005;
-    color: white;
+    background-color:#824603;
+    color:white;
+}
+#vanilla{
+    width:126px;
+    height:33px;
+    background-color:#df5277;
+    color:white;
+}
+#lemon{
+    width:126px;
+    height:33px;
+    background-color:#a2304e;
+    color:white;
+}
+#almond{
+    width:126px;
+    height:33px;
+    background-color:#c39005;
+    color:white;
 }
 .macaronslist li{
     font-family:Arial, Helvetica, sans-serif;
@@ -232,7 +225,7 @@ textarea{
 }
 @media only screen and (max-width: 376px){
     #nav{
-        width:267%;
+        width:100%;
         height:25vh;
     }
     #nav img{
@@ -247,20 +240,15 @@ textarea{
     }
     #contactmacs img{
         display:none;
-}
-    .footer {
-        width: 265vw;
-        height: 30vh;
-        background-color: #df5277;
-        display: flex;
-        justify-content: space-around;
     }
-    .footer li {
-        list-style-type: none;
-        color: white;
-        margin: 2px;
-        display: inline;
-        padding: 7vw;
+    .footer{
+        width:100%;
+        height:55vh;
+    }
+    .footer li{
+        font-size:45px;
+        text-align:center;
+        padding:0px;
     }
     .footer p{
         font-size:45px;
@@ -273,26 +261,26 @@ textarea{
     h1{
         margin:auto;
         font-size:50px;
-}
-.   mediaquery{
+    }
+    .   mediaquery{
         width:25%;
-}
+    }
     #informationcontact{
         width:100%;
-}
+    }
     #informationcontact p{
         font-size:40px;
         margin-left:5%;
         margin-right:5%;
-}
+    }
     form{
         width:75%;
-}
+    }
     input[type=text]{
         width:100%;
         height:16vh;
         margin-left:15%;
-}
+    }
     input[type=submit]{
         width:50%;
         height:16vh;
