@@ -1,12 +1,3 @@
-<?php
-    if(empty(($_POST['form']){
-        $page=$mArray['welcome']['url'];
-    }
-    else{
-
-    }
-?>
-
 <body>
 <div class="mediaquery">
     <img src="assets/images/contact-image.png" id="map">
@@ -24,18 +15,35 @@
     <p>Send your questions, comments, and flavor suggestions or place an order!</p>
 </div>
 <h1 class="contactheader">Contact Form</h1>
-<form action = "index.php" method="post">
-    <input type="text" name="name" placeholder="Name">
-    <input type="text" name="email" placeholder="Email">
-    <input type="text" name="phone" placeholder="Phone">
-    <input type="text" name="Subject" placeholder="Subject">
-    <textarea placeholder="Message"></textarea>
+<?php
+var_dump($_POST);
+
+if(!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone=$_POST['phone'];
+    $subject=$_POST['subject'];
+    $message=$_POST['message'];
+}
+else{
+    $name='';
+    $email='';
+    $phone='';
+    $subject='';
+    $message='';
+}
+?>
+<form action = "index.php?marray_key=contact" method="post">
+    <input type="text" name="name" placeholder="Name" value="<?=$name;?>">
+    <input type="text" name="email" placeholder="Email" value="<?=$email;?>">
+    <input type="text" name="phone" placeholder="Phone" value="<?=$phone;?>">
+    <input type="text" name="subject" placeholder="Subject" value="<?=$subject;?>">
+    <textarea name="message" placeholder="Message"><?=$message;?></textarea>
     <input type="submit" name="contactinfo" value="Send">
 </form>
 <div id="contact">
     <div id="contactmacs">
         <img src="assets/images/macarons-image.png" id="contactsimg">
     </div>
-</div>
 </div>
 </body>

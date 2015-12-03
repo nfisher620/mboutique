@@ -12,6 +12,20 @@ else{
     }
 
 }
+
+//$_FROM_INDEX =true;
+
+
+//if(!empty($_GET['marray_key'] && $_GET['marray_key']=='contact')){
+//    include('contact.php');
+//}
+//else{
+//    print("Welcome to the default page. Go to <a href>contact.php</a>");
+//}
+
+
+
+
 //else if ($mArray[$key]== 'welcome' || $mArray[$key] == 'macarons' || $mArray[$key] == 'gifts' || $mArray[$key]=='contact'){
 //        $page =$mArray[$key];
 //    }
